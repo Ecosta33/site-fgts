@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antecipe seu FGTS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0e9f0;
+      color: #3c0c44;
+    }
+    header, footer {
+      background-color: #3c0c44;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.08);
+      border: 2px solid #a484a5;
+    }
+    h1 {
+      color: #a484a5;
+      font-size: 26px;
+    }
+    h2 {
+      color: #3c0c44;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: '✔️ ';
+      color: #a484a5;
+    }
+    .cta-button {
+      display: block;
+      background: #836486;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    .highlight {
+      background: #f0e9f0;
+      padding: 12px;
+      border-left: 5px solid #a484a5;
+      margin: 20px 0;
+    }
+    .depoimento {
+      font-style: italic;
+      font-size: 14px;
+      margin-top: 10px;
+      color: #836486;
+    }
+    .formulario {
+      margin-top: 30px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      color: #3c0c44;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background: #9b84a4;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 8px;
+    }
+    .logo {
+      max-width: 220px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LOGO CONSULTORIA.png" alt="Facilita Crédito Logo" class="logo">
+    <h1>💸 Saldo disponível no FGTS?</h1>
+    <p>Transforme em dinheiro rápido e sem burocracia!</p>
+  </header>
+
+  <div class="container">
+    <a class="cta-button" href="https://wa.me/seunumerodowhatsapp?text=Ol%C3%A1%2C+quero+antecipar+meu+FGTS">Quero antecipar meu FGTS agora</a>
+
+    <h2>Quem pode antecipar?</h2>
+    <ul>
+      <li>Trabalhadores com carteira assinada</li>
+      <li>Optantes (ou que queiram optar) pelo saque-aniversário</li>
+      <li>Quem tem saldo a partir de R$150 no FGTS</li>
+    </ul>
+
+    <div class="highlight">
+      Se você é CLT e optou (ou quer optar) pelo saque-aniversário, pode antecipar seu FGTS e receber o dinheiro direto na conta em até 30 minutos.
+    </div>
+
+    <h2>Benefícios da antecipação</h2>
+    <ul>
+      <li>Liberação rápida (até 30 minutos)</li>
+      <li>Sem consulta ao SPC/Serasa</li>
+      <li>Atendimento personalizado via WhatsApp</li>
+      <li>Juros menores que empréstimo pessoal</li>
+      <li>Sem mensalidade ou tarifas escondidas</li>
+    </ul>
+
+    <h2>Depoimentos reais</h2>
+    <p class="depoimento">"Fiz e o dinheiro caiu na hora!" – João, GO</p>
+
+    <h2>Como funciona em 3 passos</h2>
+    <ul>
+      <li>1. Clique no botão e fale com um atendente</li>
+      <li>2. Envie seus dados para simulação gratuita</li>
+      <li>3. Receba o valor direto na conta em minutos</li>
+    </ul>
+
+    <a class="cta-button" href="https://wa.me/seunumerodowhatsapp?text=Ol%C3%A1%2C+quero+antecipar+meu+FGTS">Quero antecipar meu FGTS agora</a>
+
+    <div class="formulario">
+      <h2>Prefere ser contactado?</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="whatsapp">WhatsApp:</label>
+        <input type="text" id="whatsapp" name="whatsapp">
+
+        <label for="optante">Já é optante do saque-aniversário?</label>
+        <select id="optante" name="optante">
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+
+        <button type="submit">Enviar meus dados</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>Facilita Crédito Anápolis | CNPJ 00.000.000/0001-00</p>
+    <p>🔒 Correspondente bancário autorizado. Atendimento 100% seguro e sem taxas escondidas.</p>
+  </footer>
+</body>
+</html>
